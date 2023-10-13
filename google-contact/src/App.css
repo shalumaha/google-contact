@@ -1,0 +1,36 @@
+
+h3{
+  text-align: center;
+  color:rgb(111, 0, 255);
+  position: relative;
+  top: 0px;
+  margin-top: 0px;
+}
+.error{
+  color: red;
+  margin-left: 150px;
+  position: relative;
+  top:10px;
+  left: 90px;
+}
+
+form{
+  position: relative;
+  top:10px;
+  left: 10px;
+  height: 400px;
+}
+label{
+  position: relative;
+  top:10px;
+}
+input{
+  position: relative;
+  top:10px;
+}
+button{
+  position:relative;
+  margin-top: 30px;
+}
+  
+

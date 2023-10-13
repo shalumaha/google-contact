@@ -1,0 +1,1 @@
+export const TrashAPI="http://localhost:5000"

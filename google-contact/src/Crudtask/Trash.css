@@ -1,0 +1,8 @@
+#trashtable{
+    position: relative;
+    left:10px;
+}
+#deltrash{
+    position: relative;
+    right: 20px;
+}

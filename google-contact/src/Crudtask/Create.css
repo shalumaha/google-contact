@@ -1,0 +1,66 @@
+
+body{
+  overflow-y: hidden;
+}
+
+.container{
+  width: 1000px;
+  height: 900px;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from{
+    margin-left: 500px;
+  }
+  to{
+    margin-left: 185px;
+  }
+}
+input{
+  width: 30%;
+  border-radius: 5px;
+ 
+}
+
+#space{
+  position: relative;
+  left:40px;
+}
+ #icon{
+  font-size: 25px;
+ }
+#createtable{
+  position: relative;
+  top:20px;
+  left: 300px;
+}
+td{
+  padding: 7px;
+}
+#createbutton{
+  position: relative;
+  left:50px;
+  width:90px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  margin-left: 5px;
+}
+.error{
+  font-size: medium;
+}
+#name1_error,#job_error{
+  position: relative;
+  left: 40px;
+}
+@media screen and (max-width:600px) {
+      #createtable{
+        position:absolute;
+        top:40px;
+        left:30px;
+        right:auto;
+      }
+          
+}
